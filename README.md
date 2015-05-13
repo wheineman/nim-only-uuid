@@ -19,7 +19,7 @@ nim c --app:lib uuid.nim
 
 Usage:
 ```Nim
-import uuid
+import nuuid
 
 echo generateUUID()
 ```
