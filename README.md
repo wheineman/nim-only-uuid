@@ -1,5 +1,5 @@
 # nim-only-uuid
-Nim UUID generator - Nim source only
+A Nim source only UUID generator
 
 A loose translation of this Javascript function (http://www.broofa.com/Tools/Math.uuid.js)
 
