@@ -1,5 +1,5 @@
 ##
-## uuid.nim
+## nuuid.nim
 ##
 ##
 
@@ -10,12 +10,13 @@ import times
 
 randomize()
 
+const pattern = "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx"
+
 proc getTime(): int  =
   toInt(epochTime() * 100000)
 
 proc generateUUID*(): string =
   var d = getTime()
-  var pattern = "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx"
   proc fn(c : char): string =
     var r = toInt(toFloat(d) + random(1.0) * 16) %% 16
     d = toInt(floor(toFloat(d) / 16))
