@@ -12,11 +12,6 @@ A loose translation of this Javascript function (http://www.broofa.com/Tools/Mat
   };
 ```
 
-To create a shared library:
-```
-nim c --app:lib uuid.nim
-```
-
 Usage:
 ```Nim
 import nuuid
