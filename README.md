@@ -18,5 +18,9 @@ import nuuid
 
 echo generateUUID()
 ```
+## Installation
+```sh
+nimble install nuuid
+```
 
 
