@@ -2,7 +2,7 @@
 name          = "nuuid"
 version       = "0.1.0"
 author        = "Willy Heineman"
-description   = "A Nim only UUID generator"
+description   = "A Nim source only UUID generator"
 license       = "MIT"
 url           = "https://github.com/wheineman/nim-only-uuid"
 method        = "git"
