@@ -7,6 +7,7 @@ import math
 import sequtils
 import strutils
 import times
+import random
 
 randomize()
 
